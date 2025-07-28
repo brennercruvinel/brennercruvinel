@@ -58,7 +58,7 @@ LLM deployment, fine-tuning, embeddings, vector databases, neuro semantic, multi
 ```javascript
 // 21+ years in tech. These are the tools that stuck with me:
 const stack = {
-  ai:             ['Autotrain', 'Ollama', 'PyTorch', 'Tensorflow', 'HuggingFace', 'LangChain', 'LM Studio'],
+  ai:             ['Autotrain', 'Ollama', 'PyTorch', 'Tensorflow', 'HuggingFace', 'LangChain'],
   frontend:       ['TypeScript', 'React', 'Next.js', 'Svelte', 'Three.js', 'Tailwind', 'WebGL','GLSL'],
   backend:        ['Python', 'Rust', 'FastAPI', 'PostgreSQL', 'Redis'],
   vectors:        ['Chroma', 'Pinecone', 'pgvector'],
