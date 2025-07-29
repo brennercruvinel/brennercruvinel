@@ -38,7 +38,7 @@ Led as CPO and product design specialist for AI-powered study assistant that ada
 [![Flashed AI Assistant](flashed-ai-assistant-ed-tech.png)](https://apps.apple.com/br/app/flashed-revis%C3%A3o-di%C3%A1ria/id6460138270)
 
 ## [Alexa Skill - Porto Seguro Home Services](https://www.portoseguro.com.br)
-Led the entire Voice UX tribe including Voice User Experience Designers, UX Writers, developers, and Product Managers. Built voice-activated home repair service for Latin America's largest insurer. Users can request plumbing, electrical, and maintenance services through natural conversation. First fully-integrated insurance voice skill with Amazon certification.
+Led the entire Voice / AI squad, including Voice User Experience Designers, UX Writers & PDs. Built voice-activated home repair service for Latin America's largest insurer. Users can request plumbing, electrical, and maintenance services through natural conversation. First fully-integrated insurance voice skill with Amazon certification.
 
 [![Alexa Skill Porto Seguro](alexa-skil-porto-seguro.png)](https://www.portoseguro.com.br)
 
