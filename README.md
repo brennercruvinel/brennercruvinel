@@ -28,12 +28,13 @@ Research Interests
 # Recent Projects
 
 ## [CryptoControl](https://cryptocontrol.pro)
-Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and managed product design and engineering teams to deliver AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
+Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
 
 [![CryptoControl](cryptocontrol-.png)](https://cryptocontrol.pro)
 
 ## [Flashed - AI Learning Platform](https://apps.apple.com/br/app/flashed-revis%C3%A3o-di%C3%A1ria/id6460138270)
-Led as CPO and product design specialist for AI-powered study assistant that adapts to each student's learning style. Built the complete design system and UI for all interfaces. Platform delivers personalized content in the format that works best for each user - video, images, diagrams, or interactive questions. Launched MVP that reached #7 in App Store Education category within one week. 
+Led as CPO and product design specialist for AI-powered study assistant for Gen Z students. Built the complete design system and UI for all interfaces. Platform uses AI to personalize content delivery based on how each user learns best: video, images, diagrams, or interactive questions. Launched MVP that reached #7 in App Store Education category within one week.
+
 
 [![Flashed AI Assistant](flashed-ai-assistant-ed-tech.png)](https://apps.apple.com/br/app/flashed-revis%C3%A3o-di%C3%A1ria/id6460138270)
 
