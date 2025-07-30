@@ -11,19 +11,6 @@
 **`Mission`** Technology should be a silent partner in human greatness
 
 **`Philosophy`** The best interface is no interface
-# Make it simple, but `significant`
-
-Research Interests
-
-> `Architecture Search & Surgery` Basic NAS (learning, real in baby steps), mergekit, quantization, structural pruning
-
-> `Parameter-Efficient Fine-Tuning` LoRA, QLoRA, adapter fusion techniques
-
-> `Speech Technologies` Speech-to-Speech (S2S), Speech-to-Text (STT), prosody transfer
-
-> `Fractal & Recursive Architectures` Self-similar neural structures, cascade models
-
-> `Neurosemantic Computing` Brain-inspired language processing architectures & semantic parsing
 
 # Recent Projects
 
@@ -57,6 +44,21 @@ Started and led this AI project from zero. Built MVP for matching patients with 
 As Product Design Specialist, built complete design system for cryptocurrency platform with 70+ components. Implemented WCAG 2.1 AA accessibility standards throughout. Led front-end team implementation ensuring visual consistency and seamless handoff during development. Created comprehensive documentation in Figma and component library in Next.js.
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="hash.jpg" alt="Hash Design System"></a>
+
+# Make it simple, but `significant`
+
+Research Interests
+
+> `Architecture Search & Surgery` Basic NAS (learning, real in baby steps), mergekit, quantization, structural pruning
+
+> `Parameter-Efficient Fine-Tuning` LoRA, QLoRA, adapter fusion techniques
+
+> `Speech Technologies` Speech-to-Speech (S2S), Speech-to-Text (STT), prosody transfer
+
+> `Fractal & Recursive Architectures` Self-similar neural structures, cascade models
+
+> `Neurosemantic Computing` Brain-inspired language processing architectures & semantic parsing
+
 
 # Current Hyperfocus
 
