@@ -14,7 +14,7 @@
 
 # Recent Projects
 
-## <a href="https://cryptocontrol.pro" target="_blank">CryptoControl</a>
+## <a href="https://lp.cryptocontrol.pro" target="_blank">CryptoControl</a>
 Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
 
 <a href="lp.cryptocontrol.pro" target="_blank"><img src="https://cdn.jsdelivr.net/gh/brennercruvinel/brennercruvinel/crypto.png" alt="CryptoControl"></a>
