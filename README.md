@@ -81,28 +81,6 @@ AI & Machine Learning
 
 LLM deployment, fine-tuning, embeddings, vector databases, neuro semantic, multimodal AI, voice interfaces (STT/S2S), model optimization.
 
-
-# Tech Stack
-
-> *I'm 2e (autistic)*  
-> *My brain doesn't do "or" - only "and"*
-> *That's why I can go from Figma to Three.js without blinking (:*  
-
-```javascript
-// 21+ years in tech. These are the tools that stuck with me:
-const stack = {
-  ai:             ['Autotrain', 'Ollama', 'PyTorch', 'Tensorflow', 'HuggingFace', 'LangChain'],
-  frontend:       ['TypeScript', 'React', 'Next.js', 'Svelte', 'Three.js', 'Tailwind', 'WebGL','GLSL'],
-  backend:        ['Python', 'Rust', 'FastAPI', 'PostgreSQL', 'Redis'],
-  vectors:        ['Chroma', 'Pinecone', 'pgvector'],
-  infrastructure: ['Docker', 'Google Cloud', 'AWS'],
-  realtime:       ['WebRTC', 'WebSockets'],
-  hardware:       ['Arduino', 'Raspberry Pi'],
-  voice:          ['Whisper', 'Coqui TTS', 'Alexa Skills'],
-  philosophy:     ['Simplicity', 'Empathy', 'Craft']
-};
-```
-
 ## "The future belongs to those who see possibilities where others see limitations."
 
 <a href="https://www.linkedin.com/in/brennercruvinel/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
