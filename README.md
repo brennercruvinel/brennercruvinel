@@ -1,4 +1,4 @@
-![Digital Products](https://img.shields.io/badge/%F0%9F%9A%80-Product%20Leader%20%7C%2021%2B%20years-grey.svg)
+![Digital Products](https://img.shields.io/badge/%F0%9F%9A%80-Digital%20Products%20%7C%2021%2B%20years-grey.svg)
 ![AI](https://img.shields.io/badge/%F0%9F%A7%A0-AI%20%7C%20ML-grey.svg)
 
 
