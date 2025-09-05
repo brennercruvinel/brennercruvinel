@@ -1,5 +1,5 @@
 ![Product Leader](https://img.shields.io/badge/%F0%9F%9A%80-Product%20Leader%20%7C%2021%2B%20years-grey.svg)
-![AI](https://img.shields.io/badge/%F0%9F%A7%A0-AI%20%7C%20Neurosemantic-grey.svg)
+![AI](https://img.shields.io/badge/%F0%9F%A7%A0-AI%20%7C%20Ml-grey.svg)
 
 
 # I transform `complex problems` into `elegant products`
