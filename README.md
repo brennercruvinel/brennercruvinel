@@ -14,10 +14,10 @@
 
 # Recent Projects
 
-## <a href="https://lp.cryptocontrol.pro](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">CryptoControl</a>
+## <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">CryptoControl</a>
 Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
 
-<a href="https://lp.cryptocontrol.pro" target="_blank"><img src="https://cdn.jsdelivr.net/gh/brennercruvinel/brennercruvinel/crypto.png" alt="CryptoControl"></a>
+<a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://cdn.jsdelivr.net/gh/brennercruvinel/brennercruvinel/crypto.png" alt="CryptoControl"></a>
 
 ## <a href="https://apps.apple.com/br/app/flashed-revis%C3%A3o-di%C3%A1ria/id6460138270" target="_blank">Flashed - AI Learning Platform</a>
 Led as CPO and product design specialist for AI-powered study assistant for Gen Z students. Built the complete design system and UI for all interfaces. Platform uses AI to personalize content delivery based on how each user learns best: video, images, diagrams, or interactive questions. Launched MVP that reached #7 in App Store Education category within one week.
