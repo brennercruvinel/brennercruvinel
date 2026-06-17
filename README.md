@@ -15,8 +15,8 @@
 ![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
 ![Compression](https://img.shields.io/badge/Compression-8E44AD?style=flat-square&logo=apachekafka&logoColor=white)
 ![Product Design](https://img.shields.io/badge/Product%20Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Health Tech](https://img.shields.io/badge/Health%20Tech-00C7B7?style=flat-square&logo=heart&logoColor=white)
 ![VUI / STT / TTS](https://img.shields.io/badge/STT%20%2F%20TTS-4285F4?style=flat-square&logo=googleassistant&logoColor=white)
+![Mental Health](https://img.shields.io/badge/Mental%20Health-00C7B7?style=flat-square&logo=iheartradio&logoColor=white)
 
 ## <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">CryptoControl</a>
 Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
