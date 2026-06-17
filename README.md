@@ -1,18 +1,17 @@
-![Graph](https://img.shields.io/badge/%F0%9F%9A%80-Digital%20Products%20%7C%2021%2B%20years-grey.svg)
-![ML](https://img.shields.io/badge/%F0%9F%A7%A0-AI%20%7C%20ML-grey.svg)
-![Rust](https://img.shields.io/badge/🦀-Rust%20%7C%20Backend-orange.svg)
-![Lua](https://img.shields.io/badge/🌑-Lua%20%7C%20Scripting-blue.svg)
-
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
+![WASM](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Graph](https://img.shields.io/badge/Graph-FF6F00?style=flat-square&logo=graphql&logoColor=white)
+![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
+![Compression](https://img.shields.io/badge/Compression-8E44AD?style=flat-square&logo=apachekafka&logoColor=white)
 
 # I transform `complex problems` into `elegant products`
 
-**`Currently`** Building something new in stealth mode (AI + Mental Health)
+**`AI Researcher`** Building something new in stealth mode (AI + Mental Health)
 
 **`Previously`** Led product design at Brazil's largest digital health tech platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
 
-**`Mission`** Technology should be a silent partner in human greatness
-
-**`Philosophy`** The best interface is no interface
+**`Philosophy`** Make it simple, but significant
 
 # Recent Projects
 
@@ -47,11 +46,5 @@ As Product Design Specialist, built complete design system for cryptocurrency pl
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://cdn.jsdelivr.net/gh/brennercruvinel/brennercruvinel/hash.png" alt="Hash Design System"></a>
 
-# Make it simple, but `significant`
-
-## "The future belongs to those who see possibilities where others see limitations."
-
-<a href="https://www.linkedin.com/in/brennercruvinel/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://www.instagram.com/brennercruvinel/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-<a href="https://x.com/brennercruvinel" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+> "The future belongs to those who see possibilities where others see limitations."
 
