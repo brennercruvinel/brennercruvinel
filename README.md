@@ -1,10 +1,3 @@
-![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
-![WASM](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Graph](https://img.shields.io/badge/Graph-FF6F00?style=flat-square&logo=graphql&logoColor=white)
-![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
-![Compression](https://img.shields.io/badge/Compression-8E44AD?style=flat-square&logo=apachekafka&logoColor=white)
-
 # I transform `complex problems` into `elegant products`
 
 **`AI Researcher`** Building something new in stealth mode (AI + Mental Health)
@@ -14,6 +7,16 @@
 **`Philosophy`** Make it simple, but significant
 
 # Recent Projects
+
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
+![WASM](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Graph](https://img.shields.io/badge/Graph-FF6F00?style=flat-square&logo=graphql&logoColor=white)
+![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
+![Compression](https://img.shields.io/badge/Compression-8E44AD?style=flat-square&logo=apachekafka&logoColor=white)
+![Product Design](https://img.shields.io/badge/Product%20Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Health Tech](https://img.shields.io/badge/Health%20Tech-00C7B7?style=flat-square&logo=heart&logoColor=white)
+![STT / TTS](https://img.shields.io/badge/STT%20%2F%20TTS-4285F4?style=flat-square&logo=googleassistant&logoColor=white)
 
 ## <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">CryptoControl</a>
 Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
