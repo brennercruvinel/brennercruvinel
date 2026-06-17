@@ -47,40 +47,6 @@ As Product Design Specialist, built complete design system for cryptocurrency pl
 
 # Make it simple, but `significant`
 
-Research Interests
-
-> `Architecture Search & Surgery` Basic NAS (learning, real in baby steps), mergekit, quantization, structural pruning
-
-> `Parameter-Efficient Fine-Tuning` LoRA, QLoRA, adapter fusion techniques
-
-> `Speech Technologies` Speech-to-Speech (S2S), Speech-to-Text (STT), prosody transfer
-
-> `Fractal & Recursive Architectures` Self-similar neural structures, cascade models
-
-> `Neurosemantic Computing` Brain-inspired language processing architectures & semantic parsing
-
-
-# Current Hyperfocus
-
-**Experimenting:** `Svelte` + `Tauri` for blazing fast desktop apps `(sorry React, it's not you, it's Svelte)`
-
-**Reading:** Papers on **`mixture of experts (MoE)`** architectures
-
-**Building:** Local-first AI tools that **`respect privacy`**
-
-**Learning:** FlashAttention v2, **`speculative decoding`**, continuous batching, **`neural semantic parsing`**
-
-# Skills
-```
-Products Strategy (PRO Mode)
-```
-Team leadership, interaction design, user research, PLG (product led growth), VUI, motion UI, design systems.
-```
-AI & Machine Learning 
-```
-
-LLM deployment, fine-tuning, embeddings, vector databases, neuro semantic, multimodal AI, voice interfaces (STT/S2S), model optimization.
-
 ## "The future belongs to those who see possibilities where others see limitations."
 
 <a href="https://www.linkedin.com/in/brennercruvinel/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
