@@ -18,6 +18,16 @@
 ![VUI / STT / TTS](https://img.shields.io/badge/STT%20%2F%20TTS-4285F4?style=flat-square&logo=googleassistant&logoColor=white)
 ![Mental Health](https://img.shields.io/badge/Mental%20Health-00C7B7?style=flat-square&logo=iheartradio&logoColor=white)
 
+
+<a href="https://github.com/hoffresearch/nest/" target="_blank"><img src="https://github.com/hoffresearch/nest/blob/bbad86c51ae92937deca03948553b2fb9500683b/doc/nest-hoff-research-db.png" alt="nest"></a>
+<h2> <a href="https://github.com/hoffresearch/nest" target="_blank">nest</a></h2>
+sovereign embedded vector database. single-file `.nest` container with content-addressable citations, reproducible builds, and offline-first model verification.
+
+one file carries chunks, embeddings, source spans, optional ANN and BM25 indices, and a search contract. all hash-verified, memory-mapped, SIMD-friendly.
+
+python builds. rust serves. nest ships. agents/llms read, that's it.
+
+
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">CryptoControl</a>
 Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
 
