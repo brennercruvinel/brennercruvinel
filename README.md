@@ -2,7 +2,7 @@
 
 **`AI Researcher`** Building something new in stealth mode (AI + Mental Health)
 
-**`Previously`** Led product design at Brazil's largest digital health tech platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
+**`Previously`** Led Brazil’s largest digital health platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
 
 **`Philosophy`** Make it simple, but significant
 
