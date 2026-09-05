@@ -22,8 +22,6 @@ own binary format in [nest-format](https://github.com/hoffresearch/nest/tree/mai
 ![VUI / STT / TTS](https://img.shields.io/badge/STT%20%2F%20TTS-4285F4?style=flat-square&logo=googleassistant&logoColor=white)
 ![Mental Health](https://img.shields.io/badge/Mental%20Health-00C7B7?style=flat-square&logo=iheartradio&logoColor=white)
 
-# before nest
-
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">cryptocontrol</a>
 v2 of a crypto portfolio manager for professional investors in latam. took over a weak mvp, shipped analytics and trading tools on top of it.
 
