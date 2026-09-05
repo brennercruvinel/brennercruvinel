@@ -8,7 +8,7 @@ one `.nest` file carries chunks, embeddings, source spans, hnsw and bm25 indices
 
 python builds. rust serves. nest ships. agents/llms read, that's it.
 
-21k lines of rust, 346 tests. 100 of 104 commits are mine (`git shortlog -sn`).
+21k lines of rust, 346 tests, 100 of 104 commits are mine.
 
 own binary format in [nest-format](https://github.com/hoffresearch/nest/tree/main/crates/nest-format). mmap runtime with [avx2/neon dispatch](https://github.com/hoffresearch/nest/tree/main/crates/nest-runtime/src/simd). hnsw and bm25 as candidate generators, exact cosine rerank always. int4 storage in [dtype.rs](https://github.com/hoffresearch/nest/blob/main/crates/nest-runtime/src/dtype.rs), fsst text compression in [fsst_table.rs](https://github.com/hoffresearch/nest/blob/main/crates/nest-format/src/encoding/fsst_table.rs).
 
