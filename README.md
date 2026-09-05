@@ -1,4 +1,10 @@
-systems engineer, rust and python. built [nest](https://github.com/hoffresearch/nest), an embedded vector database. before that, head of product design at [zenklub](https://zenklub.com.br/).
+# I transform `complex problems` into `elegant products`
+
+**`AI Researcher`** Building something new in stealth mode (AI + Mental Health)
+
+**`Previously`** Led Brazil’s largest digital health platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
+
+**`Philosophy`** Make it simple, but significant
 
 # nest
 
