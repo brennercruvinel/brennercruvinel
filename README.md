@@ -1,62 +1,54 @@
-# I transform `complex problems` into `elegant products`
+**Systems engineer (Rust/Python)** — built [nest](https://github.com/hoffresearch/nest), an embedded vector database. Previously Head of Product Design at [Zenklub](https://zenklub.com.br/).
 
-**`AI Researcher`** Building something new in stealth mode (AI + Mental Health)
+# nest
 
-**`Previously`** Led Brazil’s largest digital health platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
+<a href="https://github.com/hoffresearch/nest" target="_blank"><img src="https://raw.githubusercontent.com/hoffresearch/nest/bbad86c51ae92937deca03948553b2fb9500683b/doc/nest-hoff-research-db.png" alt="nest"></a>
 
-**`Philosophy`** Make it simple, but significant
+**[hoffresearch/nest](https://github.com/hoffresearch/nest)** — sovereign embedded vector database. one `.nest` file carries chunks, embeddings, source spans, HNSW and BM25 indices, and a search contract. hash-verified, memory-mapped, reproducible, offline.
 
-# Recent Projects
+python builds. rust serves. nest ships. agents/llms read, that's it.
+
+- **21k lines of Rust, 346 tests.** Principal author: 100 of 104 commits (`git shortlog -sn`).
+- **Own binary format** ([`nest-format`](https://github.com/hoffresearch/nest/tree/main/crates/nest-format)), mmap runtime, [SIMD dispatch (AVX2/NEON)](https://github.com/hoffresearch/nest/tree/main/crates/nest-runtime/src/simd), HNSW + BM25 with a mandatory exact-cosine rerank.
+- **ML in practice:** [int4 quantization](https://github.com/hoffresearch/nest/blob/main/crates/nest-runtime/src/dtype.rs) of stored embeddings and [FSST compression](https://github.com/hoffresearch/nest/blob/main/crates/nest-format/src/encoding/fsst_table.rs) of text streams.
+- [Hoff Research](https://hoffresearch.com) is my own org for AI + mental-health work; nest is its retrieval layer, which is why it lives there and not under my handle.
 
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
-![WASM](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Graph](https://img.shields.io/badge/Graph-FF6F00?style=flat-square&logo=graphql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
 ![Compression](https://img.shields.io/badge/Compression-8E44AD?style=flat-square&logo=apachekafka&logoColor=white)
 ![Product Design](https://img.shields.io/badge/Product%20Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![VUI / STT / TTS](https://img.shields.io/badge/STT%20%2F%20TTS-4285F4?style=flat-square&logo=googleassistant&logoColor=white)
 ![Mental Health](https://img.shields.io/badge/Mental%20Health-00C7B7?style=flat-square&logo=iheartradio&logoColor=white)
 
-
-<a href="https://github.com/hoffresearch/nest/" target="_blank"><img src="https://github.com/hoffresearch/nest/blob/bbad86c51ae92937deca03948553b2fb9500683b/doc/nest-hoff-research-db.png" alt="nest"></a>
-<h2> <a href="https://github.com/hoffresearch/nest" target="_blank">nest</a></h2>
-sovereign embedded vector database. single-file `.nest` container with content-addressable citations, reproducible builds, and offline-first model verification.
-
-one file carries chunks, embeddings, source spans, optional ANN and BM25 indices, and a search contract. all hash-verified, memory-mapped, SIMD-friendly.
-
-python builds. rust serves. nest ships. agents/llms read, that's it.
-
+# Product work
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">CryptoControl</a>
-Led product development for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over from a weak MVP and delivered AI-powered analytics and trading tools for professional investors. Built comprehensive platform processing millions in daily transactions.
+Led product for V2 of Latin America's largest cryptocurrency portfolio management platform. Took over a weak MVP and shipped AI-powered analytics and trading tools for professional investors.
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/crypto.png" alt="CryptoControl"></a>
 
-<a href="https://apps.apple.com/br/app/flashed-revis%C3%A3o-di%C3%A1ria/id6460138270" target="_blank">Flashed - AI Learning Platform</a>
-Led as CPO and product design specialist for AI-powered study assistant for Gen Z students. Built the complete design system and UI for all interfaces. Platform uses AI to personalize content delivery based on how each user learns best: video, images, diagrams, or interactive questions. Launched MVP that reached #7 in App Store Education category within one week.
+Flashed - AI Learning Platform
+CPO and product design lead, alongside <a href="https://apps.apple.com/us/developer/bernardo-rodrigues/id1702056610" target="_blank">Bernardo Rodrigues</a>, who developed and published the app. Built the design system and the UI for every interface. AI-powered study assistant for Gen Z students that adapts content to how each user learns best: video, images, diagrams, or interactive questions. The store listings were taken down in 2026.
 
-<a href="https://apps.apple.com/br/app/flashed-revis%C3%A3o-di%C3%A1ria/id6460138270" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/flashed.png" alt="Flashed AI Assistant"></a>
+<img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/flashed.png" alt="Flashed AI Assistant">
 
-<a href="https://www.portoseguro.com.br" target="_blank">Alexa Skill - Porto Seguro Home Services</a>
-Led the entire Voice / AI squad, including Voice User Experience Designers, UX Writers & PDs. Built voice-activated home repair service for Latin America's largest insurer. Users can request plumbing, electrical, and maintenance services through natural conversation. First fully-integrated insurance voice skill with Amazon certification.
+<a href="https://www.amazon.com.br/Porto-Seguro-Reppara-Casa/dp/B09V88BJGP" target="_blank">Alexa Skill - Porto Seguro "Reppara! Casa"</a>
+Led the Voice / AI squad (voice UX designers, UX writers, product designers) for Latin America's largest insurer. Users request plumbing, electrical, and maintenance services through natural conversation. Amazon-certified and published on the Alexa Skills Store.
 
-<a href="https://www.portoseguro.com.br" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/porto.png" alt="Alexa Skill Porto Seguro"></a>
+<a href="https://www.amazon.com.br/Porto-Seguro-Reppara-Casa/dp/B09V88BJGP" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/porto.png" alt="Alexa Skill Porto Seguro"></a>
 
-<a href="https://www.amazon.com.br/Zenklub-bem-estar-todo-dia/dp/B0BBP49XM3/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3EYRCCMU5B4D9&dib=eyJ2IjoiMSJ9.jTpn4VfysNfWRrrZ-vQB7g._1kFgso-VGPd40bjIp91PemlwE7hRQtIZifbznFMDC0&dib_tag=se&keywords=zenklub&qid=1753828832&s=alexa-skills&sprefix=zenklub%2Calexa-skills%2C169&sr=1-1" target="_blank">Alexa Skill - Zenklub Mental Health</a>
-Created the concept and led the entire team developing voice interface for mental health support. Built guided meditations, anxiety management tools, and voice-activated appointment scheduling. Connected users to licensed therapists through natural conversation flows.
+<a href="https://www.amazon.com.br/dp/B0BBP49XM3" target="_blank">Alexa Skill - Zenklub Mental Health</a>
+Created the concept and led the team building a voice interface for mental health support: guided meditations, anxiety management tools, and voice-activated appointment scheduling with licensed therapists. Published on the Alexa Skills Store.
 
-<a href="https://www.amazon.com.br/Zenklub-bem-estar-todo-dia/dp/B0BBP49XM3/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3EYRCCMU5B4D9&dib=eyJ2IjoiMSJ9.jTpn4VfysNfWRrrZ-vQB7g._1kFgso-VGPd40bjIp91PemlwE7hRQtIZifbznFMDC0&dib_tag=se&keywords=zenklub&qid=1753828832&s=alexa-skills&sprefix=zenklub%2Calexa-skills%2C169&sr=1-1" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/zenklub.png" alt="Alexa Skill Zenklub"></a>
+<a href="https://www.amazon.com.br/dp/B0BBP49XM3" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/zenklub.png" alt="Alexa Skill Zenklub"></a>
 
 <a href="https://zenklub.com.br/site/para-voce" target="_blank">Clari AI - Zenklub Assistant</a>
-Started and led this AI project from zero. Built MVP for matching patients with therapists using behavioral profiling. Added nutritional counseling with photo analysis, emotional support, and cognitive behavioral therapy (CBT) techniques. Identifies severe cases for immediate care. Used by 23% of platform users as primary entry point. Integrated across all platform services.
+Started and led this AI project from zero. Built the MVP for matching patients with therapists using behavioral profiling, then added nutritional counseling with photo analysis, emotional support, and CBT techniques. Flags severe cases for immediate care. Integrated across all platform services.
 
 <a href="https://zenklub.com.br/site/para-voce" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/clari.png" alt="Clari Mental Health Assistant"></a>
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">Hash - Design System</a>
-As Product Design Specialist, built complete design system for cryptocurrency platform with 70+ components. Implemented WCAG 2.1 AA accessibility standards throughout. Led front-end team implementation ensuring visual consistency and seamless handoff during development. Created comprehensive documentation in Figma and component library in Next.js.
+As Product Design Specialist, built the complete design system for the cryptocurrency platform: 70+ components, WCAG 2.1 AA throughout, Figma documentation and a Next.js component library. Led the front-end implementation and handoff.
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png" alt="Hash Design System"></a>
-
-> "The future belongs to those who see possibilities where others see limitations."
-> 
