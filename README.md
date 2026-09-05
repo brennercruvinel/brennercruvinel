@@ -18,6 +18,14 @@ own binary format in [nest-format](https://github.com/hoffresearch/nest/tree/mai
 
 [hoff research](https://hoffresearch.com) is my org for ai + mental health. 
 
+# plev
+
+[brennercruvinel/plev](https://github.com/brennercruvinel/plev). an experimental gpu-first compositing engine in rust. one codebase, one pixel-identical frame on every target: macos on metal, the browser on webgpu, ios on metal, android on vulkan.
+
+a scene is rebuilt every frame, the compositor resolves only the layers that changed. no change, no frame. glass, backdrop blur, analytic shadows, real text shaping, hidpi at native scale.
+
+started six years ago as the engine for a children's education app for my daughter, one hundred percent rust. today it also ships the nest explorer gui (`crates/nestui`). the children's app is next.
+
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
