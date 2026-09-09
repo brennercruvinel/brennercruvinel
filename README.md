@@ -63,3 +63,5 @@ started it from zero. matches patients to therapists by behavioral profile, flag
 70+ components, wcag 2.1 aa, documented in figma, implemented in next.js. i built it and led the front-end on the handoff.
 
 <a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png" alt="hash design system"></a>
+
+Author: Brenner Cruvinel - Hoff Research hoffresearch.com
