@@ -2,19 +2,23 @@
 
 **`AI Researcher`** Building something new in stealth mode (AI + Mental Health)
 
-**`Previously`** Led Brazil’s largest digital health platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
+**`Previously`** Led Brazil's largest digital health platforms [(Zenklub/Conexa)](https://zenklub.com.br/busca/)
 
 **`Philosophy`** Make it simple, but significant
 
-# nest
+# urna
 
-<a href="https://github.com/hoffresearch/nest" target="_blank"><img src="https://raw.githubusercontent.com/hoffresearch/nest/bbad86c51ae92937deca03948553b2fb9500683b/doc/nest-hoff-research-db.png" alt="nest"></a>
+<a href="https://github.com/hoffresearch/urna" target="_blank"><img src="https://raw.githubusercontent.com/hoffresearch/urna/main/docs/urna-hoff-research-db.png" alt="urna"></a>
 
-one `.nest` file carries chunks, embeddings, source spans, hnsw and bm25 indices, and a search contract. hash-verified, mmap'd, reproducible, offline.
+one `.urna` file carries chunks, embeddings, source spans, hnsw and bm25 indices, and a search contract. hash-verified, mmap'd, reproducible, offline.
 
-python builds. rust serves. nest ships. agents/llms read, that's it.
+python builds. rust serves. urna ships. agents/llms read, that's it.
 
-own binary format in [nest-format](https://github.com/hoffresearch/nest/tree/main/crates/nest-format). mmap runtime with [avx2/neon dispatch](https://github.com/hoffresearch/nest/tree/main/crates/nest-runtime/src/simd). hnsw and bm25 as candidate generators, exact cosine rerank always. int4 storage in [dtype.rs](https://github.com/hoffresearch/nest/blob/main/crates/nest-runtime/src/dtype.rs), fsst text compression in [fsst_table.rs](https://github.com/hoffresearch/nest/blob/main/crates/nest-format/src/encoding/fsst_table.rs).
+own binary format in [urna-format](https://github.com/hoffresearch/urna/tree/main/crates/urna-format). mmap runtime with [avx2/neon dispatch](https://github.com/hoffresearch/urna/tree/main/crates/urna-runtime/src/simd). hnsw and bm25 as candidate generators, exact cosine rerank always. int4 storage in [dtype.rs](https://github.com/hoffresearch/urna/blob/main/crates/urna-runtime/src/dtype.rs), fsst text compression in [fsst_table.rs](https://github.com/hoffresearch/urna/blob/main/crates/urna-format/src/encoding/fsst_table.rs).
+
+[38k magic card scans](https://github.com/brennercruvinel/mtg-urna-benchmark) went into single-file corpora to find where compression starts breaking search. 4 GB of jpeg down to 533 MB, and search survives a lot more compression than the eye does. it installs with one line, or `pip install urna`.
+
+it was called nest until v0.4.0. a `.nest` written back then still opens: the reader takes the old magic, the writer only emits `URNA`.
 
 [hoff research](https://hoffresearch.com) is my org for ai + mental health. 
 
@@ -24,7 +28,7 @@ own binary format in [nest-format](https://github.com/hoffresearch/nest/tree/mai
 
 a scene is rebuilt every frame, the compositor resolves only the layers that changed. no change, no frame. glass, backdrop blur, analytic shadows, real text shaping, hidpi at native scale.
 
-started six years ago as the engine for a children's education app for my daughter, one hundred percent rust. today it also ships the nest explorer gui (`crates/nestui`). the children's app is next.
+started six years ago as the engine for a children's education app for my daughter, one hundred percent rust. today it also ships the urna explorer gui (`crates/urnaui`). the children's app is next.
 
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
