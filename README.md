@@ -16,11 +16,11 @@ It has its own binary format and an mmap runtime with AVX2/NEON dispatch. HNSW a
 
 I packed [38k Magic card scans](https://github.com/brennercruvinel/mtg-urna-benchmark) into single-file corpora to find where compression starts breaking search. 4 GB of JPEG went down to 533 MB, and search survives a lot more compression than the eye does. The text side is [pt-BR fake news](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark), searched with real queries.
 
-```sh
+```
 npm install -g @urna/cli
 ```
 
-```sh
+```
 cargo install urna
 ```
 
