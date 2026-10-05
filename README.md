@@ -1,12 +1,11 @@
-# I transform `complex problems` into `elegant products`
+# Independent Researcher 
 
-**`Independent AI Researcher`** Building something new in stealth mode (AI + Mental Health)
+I transform complex problems into elegant products. Make it simple, but significant!
 
-**`Philosophy`** Make it simple, but significant
+--------
+[![urna](https://raw.githubusercontent.com/hoffresearch/urna/v0.5.4/assets/image/urna-hoff-research-db-iage-thumb-git.png)](https://github.com/hoffresearch/urna)
 
 # urna
-
-[![urna](https://raw.githubusercontent.com/hoffresearch/urna/v0.5.4/assets/image/urna-hoff-research-db-iage-thumb-git.png)](https://github.com/hoffresearch/urna)
 
 One `.urna` file carries chunks, embeddings, source spans, HNSW and BM25 indices, and a search contract. Hash-verified, memory-mapped, reproducible, offline.
 
