@@ -6,27 +6,25 @@
 
 # urna
 
-<a href="https://github.com/hoffresearch/urna" target="_blank"><img src="https://raw.githubusercontent.com/hoffresearch/urna/main/docs/urna-hoff-research-db.png" alt="urna"></a>
+[![urna](https://raw.githubusercontent.com/hoffresearch/urna/v0.5.4/assets/image/urna-hoff-research-db-iage-thumb-git.png)](https://github.com/hoffresearch/urna)
 
-one `.urna` file carries chunks, embeddings, source spans, hnsw and bm25 indices, and a search contract. hash-verified, mmap'd, reproducible, offline.
+One `.urna` file carries chunks, embeddings, source spans, HNSW and BM25 indices, and a search contract. Hash-verified, memory-mapped, reproducible, offline.
 
-python builds. rust serves. urna ships. agents/llms read, that's it.
+Python builds. Rust serves. Urna ships. Agents/LLMs read, that's it.
 
-own binary format in [urna-format](https://github.com/hoffresearch/urna/tree/main/crates/urna-format). mmap runtime with [avx2/neon dispatch](https://github.com/hoffresearch/urna/tree/main/crates/urna-runtime/src/simd). hnsw and bm25 as candidate generators, exact cosine rerank always. int4 storage in [dtype.rs](https://github.com/hoffresearch/urna/blob/main/crates/urna-runtime/src/dtype.rs), fsst text compression in [fsst_table.rs](https://github.com/hoffresearch/urna/blob/main/crates/urna-format/src/encoding/fsst_table.rs).
+It has its own binary format and an mmap runtime with AVX2/NEON dispatch. HNSW and BM25 only pick candidates, every hit gets an exact cosine rerank, and storage goes down to int4 with FSST for the text ([the crates](https://github.com/hoffresearch/urna/tree/v0.5.4/crates)).
 
-[38k magic card scans](https://github.com/brennercruvinel/mtg-urna-benchmark) went into single-file corpora to find where compression starts breaking search. 4 GB of jpeg down to 533 MB, and search survives a lot more compression than the eye does. it installs with one line, or `pip install urna`.
+I packed [38k Magic card scans](https://github.com/brennercruvinel/mtg-urna-benchmark) into single-file corpora to find where compression starts breaking search. 4 GB of JPEG went down to 533 MB, and search survives a lot more compression than the eye does. The text side is [pt-BR fake news](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark), searched with real queries.
 
-it was called nest until v0.4.0. a `.nest` written back then still opens: the reader takes the old magic, the writer only emits `URNA`.
-
-[hoff research](https://hoffresearch.com) is my org for ai + mental health. 
+It installs with one line, or `pip install urna` ([docs](https://docs.urna.dev)). It was called nest until v0.4.0, and a `.nest` from back then still opens.
 
 # plev
 
-[brennercruvinel/plev](https://github.com/brennercruvinel/plev). an experimental gpu-first compositing engine in rust. one codebase, one pixel-identical frame on every target: macos on metal, the browser on webgpu, ios on metal, android on vulkan.
+[plev](https://github.com/brennercruvinel/plev) is an experimental GPU-first compositing engine in Rust. One codebase draws the same pixel-identical frame on every target: macOS and iOS on Metal, the browser on WebGPU, Android on Vulkan.
 
-a scene is rebuilt every frame, the compositor resolves only the layers that changed. no change, no frame. glass, backdrop blur, analytic shadows, real text shaping, hidpi at native scale.
+The scene is rebuilt every frame and the compositor resolves only the layers that changed, so no change means no frame. Glass, backdrop blur, analytic shadows, real text shaping, HiDPI at native scale.
 
-started six years ago as the engine for a children's education app for my daughter, one hundred percent rust. today it also ships the urna explorer gui (`crates/urnaui`). the children's app is next.
+I started it six years ago as the engine for a children's education app for my daughter, all Rust. Today it also ships the urna explorer GUI (`crates/urnaui`), and the children's app is next.
 
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -36,34 +34,34 @@ started six years ago as the engine for a children's education app for my daught
 ![VUI / STT / TTS](https://img.shields.io/badge/STT%20%2F%20TTS-4285F4?style=flat-square&logo=googleassistant&logoColor=white)
 ![Mental Health](https://img.shields.io/badge/Mental%20Health-00C7B7?style=flat-square&logo=iheartradio&logoColor=white)
 
-<a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">cryptocontrol</a>
-v2 of a crypto portfolio manager for professional investors in latam. took over a weak mvp, shipped analytics and trading tools on top of it.
+[Cryptocontrol](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)\
+V2 of a crypto portfolio manager for professional investors in LatAm. I took over a weak MVP and shipped analytics and trading tools on top of it.
 
-<a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/crypto.png" alt="cryptocontrol"></a>
+[![cryptocontrol](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/crypto.png)](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)
 
-flashed
-study app for gen z, adapts content to how each student learns (video, image, diagram, quiz). i was cpo and did the design system and all the ui. <a href="https://apps.apple.com/us/developer/bernardo-rodrigues/id1702056610" target="_blank">bernardo rodrigues</a> built and published it. the store listings came down in 2026.
+Flashed\
+Study app for Gen Z that adapts content to how each student learns (video, image, diagram, quiz). I was CPO and did the design system and all the UI, and [Bernardo Rodrigues](https://apps.apple.com/us/developer/bernardo-rodrigues/id1702056610) built and published it. The store listings came down in 2026.
 
-<img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/flashed.png" alt="flashed">
+![flashed](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/flashed.png)
 
-<a href="https://www.amazon.com.br/Porto-Seguro-Reppara-Casa/dp/B09V88BJGP" target="_blank">alexa skill, porto seguro "reppara! casa"</a>
-ask alexa for a plumber or an electrician through your home insurance. i ran the voice squad (vux designers, ux writers, pds) for the largest insurer in latam. on the alexa store.
+[Alexa skill, Porto Seguro "Reppara! Casa"](https://www.amazon.com.br/Porto-Seguro-Reppara-Casa/dp/B09V88BJGP)\
+Ask Alexa for a plumber or an electrician through your home insurance. I ran the voice squad (VUX designers, UX writers, PDs) at the largest insurer in LatAm.
 
-<a href="https://www.amazon.com.br/Porto-Seguro-Reppara-Casa/dp/B09V88BJGP" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/porto.png" alt="alexa skill porto seguro"></a>
+[![alexa skill porto seguro](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/porto.png)](https://www.amazon.com.br/Porto-Seguro-Reppara-Casa/dp/B09V88BJGP)
 
-<a href="https://www.amazon.com.br/dp/B0BBP49XM3" target="_blank">alexa skill, zenklub</a>
-guided meditation, anxiety tools, booking a therapist by voice. my concept, i led the team. on the alexa store.
+[Alexa skill, Zenklub](https://www.amazon.com.br/dp/B0BBP49XM3)\
+Guided meditation, anxiety tools and booking a therapist by voice. My concept, and I led the team.
 
-<a href="https://www.amazon.com.br/dp/B0BBP49XM3" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/zenklub.png" alt="alexa skill zenklub"></a>
+[![alexa skill zenklub](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/zenklub.png)](https://www.amazon.com.br/dp/B0BBP49XM3)
 
-<a href="https://zenklub.com.br/site/para-voce" target="_blank">clari, zenklub assistant</a>
-started it from zero. matches patients to therapists by behavioral profile, flags severe cases for immediate care. later got nutrition (photo analysis), emotional support and cbt exercises. wired into every zenklub service.
+[Clari, Zenklub assistant](https://zenklub.com.br/site/para-voce)\
+I started it from zero. It matches patients to therapists by behavioral profile and flags severe cases for immediate care. Later it got nutrition (photo analysis), emotional support and CBT exercises, wired into every Zenklub service.
 
-<a href="https://zenklub.com.br/site/para-voce" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/clari.png" alt="clari"></a>
+[![clari](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/clari.png)](https://zenklub.com.br/site/para-voce)
 
-<a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank">hash design system</a>
-70+ components, wcag 2.1 aa, documented in figma, implemented in next.js. i built it and led the front-end on the handoff.
+[Hash design system](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)\
+70+ components, WCAG 2.1 AA, documented in Figma and implemented in Next.js. I built it and led the front-end on the handoff.
 
-<a href="https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1" target="_blank"><img src="https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png" alt="hash design system"></a>
+[![hash design system](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png)](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)
 
-Author: Brenner Cruvinel - Hoff Research hoffresearch.com
+Brenner Cruvinel, [Hoff Research](https://hoffresearch.com)
