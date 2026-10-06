@@ -3,36 +3,35 @@
 I transform complex problems into elegant products. Make it simple, but significant!
 
 --------
-[![urna](https://raw.githubusercontent.com/hoffresearch/urna/v0.5.4/assets/image/urna-hoff-research-db-iage-thumb-git.png)](https://github.com/hoffresearch/urna)
+[![urna](https://raw.githubusercontent.com/hoffresearch/urna/main/docs/img/urna-tui.svg)](https://github.com/hoffresearch/urna)
 
 # urna
 
-One `.urna` file carries chunks, embeddings, source spans, HNSW and BM25 indices, and a search contract. Hash-verified, memory-mapped, reproducible, offline.
+A vector db you can carry around as a binary file.
 
-Python builds. Rust serves. Urna ships. Agents/LLMs read, that's it.
+A `.urna` file packs embeddings, HNSW/BM25 indexes and the contract needed to verify and search them. The Rust runtime uses `mmap`, SHA checks and native AVX2/NEON dispatch. HNSW and BM25 find candidates, then every hit gets an exact cosine rerank.
 
-It has its own binary format and an mmap runtime with AVX2/NEON dispatch. HNSW and BM25 only pick candidates, every hit gets an exact cosine rerank, and storage goes down to int4 with FSST for the text ([the crates](https://github.com/hoffresearch/urna/tree/v0.5.4/crates)).
+The CLI and TUI are intentionally small: `build`, `ask`, `retrieve`.
 
-I packed [38k Magic card scans](https://github.com/brennercruvinel/mtg-urna-benchmark) into single-file corpora to find where compression starts breaking search. 4 GB of JPEG went down to 533 MB, and search survives a lot more compression than the eye does. The text side is [pt-BR fake news](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark), searched with real queries.
+Urna isn't meant to become a cloud service or another general purpose database, much less compete with mature projects like Qdrant or Chroma. It's just my small retrieval lab, focused on exactness, compression, binary formats, and keeping the database useful wherever the file goes.
 
-```
+**Experiments**
+
+[Fact-check](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark), 7 public pt-BR datasets deduplicated into 23k documents, with 2.6k queries for retrieval evaluation. [Hugging Face](https://huggingface.co/datasets/brennercruvinel/fakenews-ptbr-urna-benchmark)
+
+[Image compression](https://github.com/brennercruvinel/mtg-urna-benchmark), 38k Magic cards packed using AV1. [Hugging Face](https://huggingface.co/datasets/brennercruvinel/mtg-urna-benchmark)
+
+If you're into retrieval, compression, binary formats or compilers, feel free to contribute.
+
+## Install
+
+```bash
 npm install -g @urna/cli
-```
-
-```
+# or
 cargo install urna
 ```
 
-It was called nest until v0.4.0, and a `.nest` from back then still opens.
-
-# plev
-
-[plev](https://github.com/brennercruvinel/plev) is an experimental GPU-first compositing engine in Rust. One codebase draws the same pixel-identical frame on every target: macOS and iOS on Metal, the browser on WebGPU, Android on Vulkan.
-
-The scene is rebuilt every frame and the compositor resolves only the layers that changed, so no change means no frame. Glass, backdrop blur, analytic shadows, real text shaping, HiDPI at native scale.
-
-I started it six years ago as the engine for a children's education app for my daughter, all Rust. Today it also ships the urna explorer GUI (`crates/urnaui`), and the children's app is next.
-
+<!--
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Semantic Search](https://img.shields.io/badge/Semantic%20Search-00A98F?style=flat-square&logo=meilisearch&logoColor=white)
@@ -70,5 +69,6 @@ I started it from zero. It matches patients to therapists by behavioral profile 
 70+ components, WCAG 2.1 AA, documented in Figma and implemented in Next.js. I built it and led the front-end on the handoff.
 
 [![hash design system](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png)](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)
+-->
 
 Brenner Cruvinel, [Hoff Research](https://hoffresearch.com)
