@@ -7,29 +7,19 @@ I transform complex problems into elegant products. Make it simple, but signific
 
 # urna
 
-A vector db you can carry around as a binary file.
+Portable binary vector db that fits in your pocket.
 
-A `.urna` file packs embeddings, HNSW/BM25 indexes and the contract needed to verify and search them. The Rust runtime uses `mmap`, SHA checks and native AVX2/NEON dispatch. HNSW and BM25 find candidates, then every hit gets an exact cosine rerank.
+A `.urna` file keeps embeddings, HNSW/BM25 indexes and the search contract together. The Rust runtime memory maps it, checks its hashes and reranks every candidate with exact cosine similarity. The CLI and TUI keep things simple: `build`, `ask`, `retrieve`.
 
-The CLI and TUI are intentionally small: `build`, `ask`, `retrieve`.
+Made for those tired of yet another cloud database service.
 
-Urna isn't meant to become a cloud service or another general purpose database, much less compete with mature projects like Qdrant or Chroma. It's just my small retrieval lab, focused on exactness, compression, binary formats, and keeping the database useful wherever the file goes.
+No ambition to become a cloud service or compete with mature projects like Qdrant or Chroma. My focus is exact cosine scores, byte-for-byte contract validation, compression, portability and verifiable retrieval without depending on cloud infrastructure.
 
-**Experiments**
+Experiments: [pt-BR fact-check retrieval](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark) · [38k Magic cards compressed with AV1](https://github.com/brennercruvinel/mtg-urna-benchmark)
 
-[Fact-check](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark), 7 public pt-BR datasets deduplicated into 23k documents, with 2.6k queries for retrieval evaluation. [Hugging Face](https://huggingface.co/datasets/brennercruvinel/fakenews-ptbr-urna-benchmark)
+`npm install -g @urna/cli` 
 
-[Image compression](https://github.com/brennercruvinel/mtg-urna-benchmark), 38k Magic cards packed using AV1. [Hugging Face](https://huggingface.co/datasets/brennercruvinel/mtg-urna-benchmark)
-
-If you're into retrieval, compression, binary formats or compilers, feel free to contribute.
-
-## Install
-
-```bash
-npm install -g @urna/cli
-# or
-cargo install urna
-```
+`cargo install urna`
 
 <!--
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
