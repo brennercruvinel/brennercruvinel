@@ -1,6 +1,8 @@
-# Independent Researcher 
+# Hi, I'm Brenner
 
-I transform complex problems into elegant products. Make it simple, but significant!
+Just a dev who loves turning complex problems into elegant products.
+
+#### Make it simple, but significant is my daily mantra.
 
 --------
 [![urna](https://raw.githubusercontent.com/hoffresearch/urna/main/docs/img/urna-tui.svg)](https://github.com/hoffresearch/urna)
