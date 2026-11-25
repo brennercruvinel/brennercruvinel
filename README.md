@@ -4,9 +4,7 @@ Just a dev who loves turning complex problems into elegant products.
 
 #### Make it simple, but significant is my daily mantra.
 
-## urna
-Portable binary vector db that fits in your pocket.
-
+## Urna ~ Portable binary vector db that fits in your pocket
 [![urna](https://raw.githubusercontent.com/hoffresearch/urna/main/docs/img/urna-tui.svg)](https://github.com/hoffresearch/urna)
 
 A `.urna` file keeps embeddings, HNSW/BM25 indexes and the search contract together. The Rust runtime memory maps it, checks its hashes and reranks every candidate with exact cosine similarity. The CLI and TUI keep things simple: `build`, `ask`, `retrieve`.
