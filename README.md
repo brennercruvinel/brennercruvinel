@@ -4,12 +4,10 @@ Just a dev who loves turning complex problems into elegant products.
 
 #### Make it simple, but significant is my daily mantra.
 
---------
-[![urna](https://raw.githubusercontent.com/hoffresearch/urna/main/docs/img/urna-tui.svg)](https://github.com/hoffresearch/urna)
-
-# urna
-
+## urna
 Portable binary vector db that fits in your pocket.
+
+[![urna](https://raw.githubusercontent.com/hoffresearch/urna/main/docs/img/urna-tui.svg)](https://github.com/hoffresearch/urna)
 
 A `.urna` file keeps embeddings, HNSW/BM25 indexes and the search contract together. The Rust runtime memory maps it, checks its hashes and reranks every candidate with exact cosine similarity. The CLI and TUI keep things simple: `build`, `ask`, `retrieve`.
 
@@ -63,7 +61,7 @@ I started it from zero. It matches patients to therapists by behavioral profile 
 [![hash design system](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png)](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)
 -->
 
-# Mandrake ~ The AI safety killer
+## Mandrake ~ The AI safety killer
 A middleman to cut the bullshit that gets in the way of model performance: stupid guardrails, useless instructions, and all that jazz. Trims the context Claude Code injects into your prompt and intercepts API requests through a local proxy, including OpenCode sessions backed by Claude Code. Request diffs, live inspection, and token usage show what changed and how much you saved.
 
 ![mandrake compare](https://github.com/brennercruvinel/mandrake/blob/main/docs/img/demo/watch-wide.svg)
