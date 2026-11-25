@@ -63,4 +63,11 @@ I started it from zero. It matches patients to therapists by behavioral profile 
 [![hash design system](https://raw.githubusercontent.com/brennercruvinel/brennercruvinel/main/hash.png)](https://www.figma.com/design/USx5XDTlpPsabJSZoyWLYV/Hash-Design-System---Cryptocontrol-V1?node-id=553-14956&t=iE4gYUPCSrXTR94X-1)
 -->
 
+# Mandrake ~ The AI safety killer
+A middleman to cut the bullshit that gets in the way of model performance: stupid guardrails, useless instructions, and all that jazz. Trims the context Claude Code injects into your prompt and intercepts API requests through a local proxy, including OpenCode sessions backed by Claude Code. Request diffs, live inspection, and token usage show what changed and how much you saved.
+
+![mandrake compare](https://github.com/brennercruvinel/mandrake/blob/main/docs/img/demo/watch-wide.svg)
+
+It also reorganizes your ~/.claude folder, centralizing configs, plugins, and prompts, making your setup portable across Mac and Linux machines and your agent trajectories easier to reuse for research, ML training, and custom harnesses.
+
 Brenner Cruvinel, [Hoff Research](https://hoffresearch.com)
