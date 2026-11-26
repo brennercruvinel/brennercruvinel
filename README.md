@@ -63,7 +63,7 @@ I started it from zero. It matches patients to therapists by behavioral profile 
 
 A middleman to cut the bullshit that gets in the way of model performance: useless instructions, guardrail theater, and all that jazz. 
 
-The engine trims the Claude Code system prompt at the root and injects yours by intercepting API requests through a local proxy, including OpenCode sessions backed by Claude Code (Kimi, Deepseek, Minimax and GLM soon). Request diffs, live inspection, and token usage show what changed and how much you saved.
+The engine trims the agent default system prompt at the root and injects yours by intercepting API requests through a local proxy, including OpenCode sessions backed by Claude Code (Kimi, Deepseek, Minimax and GLM soon). Request diffs, live inspection, and token usage show what changed and how much you saved.
 
 ![mandrake compare](https://github.com/brennercruvinel/mandrake/blob/main/docs/img/demo/watch-wide.svg)
 
