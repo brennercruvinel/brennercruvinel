@@ -11,7 +11,7 @@ A `.urna` file keeps embeddings, HNSW/BM25 indexes and the search contract toget
 
 Made for those tired of yet another cloud database service.
 
-No ambition to become a cloud service or compete with mature projects like Qdrant or Chroma. My focus is exact cosine scores, byte-for-byte contract validation, compression, portability and verifiable retrieval without depending on cloud infrastructure.
+No ambition to become a cloud service or compete with mature projects like Qdrant or Chroma. My focus is exact cosine scores, contract validation, compression, portability and verifiable retrieval without depending on cloud infrastructure.
 
 Experiments: [pt-BR fact-check retrieval](https://github.com/brennercruvinel/fakenews-ptbr-urna-benchmark) · [38k Magic cards compressed with AV1](https://github.com/brennercruvinel/mtg-urna-benchmark)
 
@@ -60,7 +60,8 @@ I started it from zero. It matches patients to therapists by behavioral profile 
 -->
 
 ## Mandrake ~ The AI safety killer
-A middleman to cut the bullshit that gets in the way of model performance: stupid guardrails, useless instructions, and all that jazz. Trims the context Claude Code injects into your prompt and intercepts API requests through a local proxy, including OpenCode sessions backed by Claude Code. Request diffs, live inspection, and token usage show what changed and how much you saved.
+
+A middleman to cut the bullshit that gets in the way of model performance: useless instructions, guardrail theater, and all that jazz. The engine trims the Claude Code system prompt at the root and injects yours by intercepting API requests through a local proxy, including OpenCode sessions backed by Claude Code. Request diffs, live inspection, and token usage show what changed and how much you saved.
 
 ![mandrake compare](https://github.com/brennercruvinel/mandrake/blob/main/docs/img/demo/watch-wide.svg)
 
